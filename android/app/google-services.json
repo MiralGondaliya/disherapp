@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14060600483",
+    "project_id": "disher-154b1",
+    "storage_bucket": "disher-154b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14060600483:android:411a87318d47c8b05a9316",
+        "android_client_info": {
+          "package_name": "com.disher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu5nveWcHl72qoxhz0Xth2EGCEFAD9eho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
