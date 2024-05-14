@@ -39,7 +39,7 @@ export const toastConfig = {
 			contentContainerStyle={{
 				alignItems: 'center',
 				height: '100%',
-				width: '100',
+				width: '100%',
 				backgroundColor: '#344054CC',
 				borderRadius: 8,
 			}}

@@ -4,8 +4,8 @@ import messaging, {
 } from '@react-native-firebase/messaging';
 import PushNotification from 'react-native-push-notification';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
-import { DeviceHelper } from '../helper/DeviceHelper';
-import { Storage } from '../core/Storage';
+import { DeviceHelper } from '@/helper/DeviceHelper';
+import { Storage } from '@/core';
 // import {offerFactory} from '@/factory/OfferFactory';
 import { navigate, Routes } from '@/navigation/AppNavigation';
 import { logger } from '@/logger/Logger';

@@ -2,7 +2,7 @@ import { Images } from '@/assets';
 import { DiscussionScreen } from '@/screens/Discussion/DiscussionScreen';
 import DealDigestNavigator from './DealDigestNavigator';
 import TransactionNavigator from './TransactionNavigator';
-import { AssetsListScreen, HomeScreen } from '@/screens';
+import { HomeScreen } from '@/screens';
 import { AssetsTabNavigator } from '@/navigation/AssetsTabNavigator';
 
 

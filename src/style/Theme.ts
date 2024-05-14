@@ -45,86 +45,25 @@ export const theme = createTheme({
 	},
 	textVariants: {
 		defaults: {},
-		h1: {
-			color: 'white',
-			fontSize: 26,
-			fontFamily: fonts.bold,
-			textAlign: 'left',
+		m14:{
+			fontFamily: fonts.medium,
+			fontSize:14,
+			color:'chinesBlack',
 		},
-		h2: {
-			color: 'white',
-			fontSize: 24,
+		m12:{
+			fontFamily: fonts.medium,
+			fontSize:12,
+			color:'chinesBlack',
+		},
+		m10:{
+			fontFamily: fonts.medium,
+			fontSize:10,
+			color:'chinesBlack',
+		},
+		r10:{
 			fontFamily: fonts.regular,
-			textAlign: 'left',
-			textTransform: 'uppercase',
-		},
-		h3: {
-			color: 'white',
-			fontSize: 18,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-			textTransform: 'uppercase',
-		},
-		title: {
-			color: 'white',
-			fontSize: 14,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-			textTransform: 'uppercase',
-		},
-		caption: {
-			color: 'gray',
-			fontSize: 10,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-		},
-		b1: {
-			color: 'white',
-			fontSize: 15,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-		},
-		b2: {
-			color: 'black',
-			fontSize: 14,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-		},
-		b3: {
-			color: 'white',
-			fontSize: 16,
-			fontFamily: fonts.regular,
-			textAlign: 'left',
-		},
-		b4: {
-			color: 'gray',
-			fontSize: 12,
-			fontFamily: fonts.bold,
-			textAlign: 'left',
-		},
-		b5: {
-			color: 'black',
-			fontSize: 12,
-			fontFamily: fonts.bold,
-			textAlign: 'left',
-		},
-		inputHint: {
-			color: 'gray',
-			fontSize: 14,
-			fontFamily: fonts.bold,
-			textAlign: 'left',
-		},
-		authTitle: {
-			color: 'black',
-			fontSize: 20,
-			fontFamily: fonts.bold,
-			textAlign: 'center',
-		},
-		authMessage: {
-			color: 'gray3',
-			fontSize: 14,
-			fontFamily: fonts.regular,
-			textAlign: 'center',
+			fontSize:10,
+			color:'chinesBlack',
 		},
 	},
 	cardVariants: {

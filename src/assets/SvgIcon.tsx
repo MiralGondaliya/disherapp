@@ -4,12 +4,24 @@ import { useTheme } from '@shopify/restyle';
 import { Color, Theme } from '@/style';
 import { Pressable } from '@/component';
 
-// import arrow_right from './svg/arrow_right.svg';
+import HomeTabIconSelected from './svg/HomeTabIconSelected.svg';
+import WalletTabIcon from './svg/WalletTabIcon.svg';
+import NotificationTabIcon from './svg/NotificationTabIcon.svg';
+import ProfileTabIcon from './svg/ProfileTabIcon.svg';
+import CreateTabIcon from './svg/CreateTabIcon.svg';
+import Notification from './svg/Notification.svg';
+import Filter from './svg/Filter.svg';
 
 const DEFAULT_SIZE = 25;
 
 export const svgs = {
-	// arrowRight:arrow_right,
+	HomeTabIconSelected,
+	WalletTabIcon,
+	NotificationTabIcon,
+	ProfileTabIcon,
+	CreateTabIcon,
+	Notification,
+	Filter,
 };
 
 export type Svg = keyof typeof svgs;

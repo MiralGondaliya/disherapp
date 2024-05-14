@@ -16,12 +16,12 @@ export class DeviceHelper {
 	}
 
 	static calculateWidthRatio(size: number): number {
-		const widthInDesign = 390;
+		const widthInDesign = 375;
 		return (size * this.dimensions.width) / widthInDesign;
 	}
 
 	static calculateHeightRatio(size: number): number {
-		const heightInDesign = 844;
+		const heightInDesign = 812;
 		return (size * this.dimensions.height) / heightInDesign;
 	}
 
