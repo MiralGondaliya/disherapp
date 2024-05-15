@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Box, Screen } from '@/component';
 import { DeviceHelper } from '@/helper/DeviceHelper';
-import { HomeHeader, PresentWeekCalendar } from '@/component/Disher.HomeTab';
+import { DishAndFoldEventSlots, HomeHeader, PresentWeekCalendar } from '@/component/Disher.HomeTab';
 import { SearchAndFilter } from '@/component/Disher.HomeTab/SearchAndFilter';
 
 export const HomeTab : FC = ()=> {
@@ -19,6 +19,7 @@ export const HomeTab : FC = ()=> {
 					borderTopRightRadius={DeviceHelper.calculateHeightRatio(32)}
 					backgroundColor={'cultured'}>
 					<SearchAndFilter/>
+					<DishAndFoldEventSlots/>
 				</Box>
 			</Box>
 		</Screen>

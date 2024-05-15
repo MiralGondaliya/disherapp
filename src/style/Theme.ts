@@ -60,8 +60,23 @@ export const theme = createTheme({
 			fontSize:10,
 			color:'chinesBlack',
 		},
+		r12:{
+			fontFamily: fonts.regular,
+			fontSize:12,
+			color:'chinesBlack',
+		},
 		r10:{
 			fontFamily: fonts.regular,
+			fontSize:10,
+			color:'chinesBlack',
+		},
+		r8:{
+			fontFamily: fonts.regular,
+			fontSize:8,
+			color:'chinesBlack',
+		},
+		sm10:{
+			fontFamily: fonts.semiBold,
 			fontSize:10,
 			color:'chinesBlack',
 		},

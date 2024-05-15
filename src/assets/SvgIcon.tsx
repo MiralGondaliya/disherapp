@@ -11,6 +11,10 @@ import ProfileTabIcon from './svg/ProfileTabIcon.svg';
 import CreateTabIcon from './svg/CreateTabIcon.svg';
 import Notification from './svg/Notification.svg';
 import Filter from './svg/Filter.svg';
+import ClockIcon from './svg/ClockIcon.svg';
+import DollarIcon from './svg/DollarIcon.svg';
+import LocationPin from './svg/LocationPin.svg';
+import Rating from './svg/Rating.svg';
 
 const DEFAULT_SIZE = 25;
 
@@ -22,6 +26,10 @@ export const svgs = {
 	CreateTabIcon,
 	Notification,
 	Filter,
+	ClockIcon,
+	DollarIcon,
+	LocationPin,
+	Rating,
 };
 
 export type Svg = keyof typeof svgs;
