@@ -25,4 +25,16 @@ export class DishAndFoldEvent extends Model<DishAndFoldsEventDto> {
 		return this.dto?.amount ?? 0;
 	}
 
+	get miles():number {
+		return this.dto?.miles ?? 0;
+	}
+
+	get confirmed():number {
+		return this.dto?.confirmed ?? 0;
+	}
+
+	dateStringFromTo():string {
+		return `${this.startTime.format('h:mm')} to ${this.endTime.format('h:mm a')}`;
+	}
+
 }

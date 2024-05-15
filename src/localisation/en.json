@@ -1,5 +1,6 @@
 {
   "tr": {
-    "home.milesFromYou" : "Miles from you"
+    "home.milesFromYou" : "Miles from you",
+    "home.confirm.daily.earnings": "Confirmed Daily Earnings"
   }
 }

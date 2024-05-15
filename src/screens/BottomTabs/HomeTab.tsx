@@ -14,7 +14,7 @@ export const HomeTab : FC = ()=> {
 				</Box>
 				<Box
 					flex={1}
-					marginTop={'s'}
+					marginTop={'sr'}
 					borderTopLeftRadius={DeviceHelper.calculateHeightRatio(32)}
 					borderTopRightRadius={DeviceHelper.calculateHeightRatio(32)}
 					backgroundColor={'cultured'}>

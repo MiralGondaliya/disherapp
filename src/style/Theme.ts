@@ -80,6 +80,11 @@ export const theme = createTheme({
 			fontSize:10,
 			color:'chinesBlack',
 		},
+		sm12:{
+			fontFamily: fonts.semiBold,
+			fontSize:12,
+			color:'chinesBlack',
+		},
 	},
 	cardVariants: {
 		defaults: {

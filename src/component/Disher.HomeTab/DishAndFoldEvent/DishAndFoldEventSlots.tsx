@@ -37,18 +37,25 @@ export const DishAndFoldEventSlots:React.FC = () => {
 					ref={timeSlotScrollViewRef}
 					onScroll={handleOnTimeSlotScrollViewRef}
 					showsVerticalScrollIndicator={false}
-					contentContainerStyle={{ flexGrow:1, paddingTop:7 }}>
+					contentContainerStyle={{ flexGrow:1, paddingTop:7, paddingBottom:7 }}>
 					{
-						dishAndFoldSlotList.map((item)=> {
+						dishAndFoldSlotList.map((item, index)=> {
 							return (
 								<Box
 									paddingStart={'r'}
-									flexDirection={'row'}
 									key={item.id}
+									justifyContent={'space-between'}
 									height={DeviceHelper.calculateHeightRatio(80)}>
-									<Box bottom={5} minWidth={DeviceHelper.calculateWidthRatio(34)}>
+									<Box bottom={5} minWidth={DeviceHelper.calculateWidthRatio(36)}>
 										<Text variant={'r12'}>{item.slotStartStr()}</Text>
 									</Box>
+									{
+										index === dishAndFoldSlotList.size - 1
+										&&
+										<Box minWidth={DeviceHelper.calculateWidthRatio(34)}>
+											<Text variant={'r12'}>{item.slotEndStr()}</Text>
+										</Box>
+									}
 								</Box>
 							);
 						})
@@ -70,7 +77,7 @@ export const DishAndFoldEventSlots:React.FC = () => {
 						ref={eventsScrollViewRef}
 						onScroll={handleOnEventlotScrollViewRef}
 						showsVerticalScrollIndicator={false}
-						contentContainerStyle={{ flexGrow:1, paddingTop:7 }}>
+						contentContainerStyle={{ flexGrow:1, paddingTop:7, paddingBottom:7 }}>
 						{
 							dishAndFoldSlotList.map((item)=> {
 								return (
@@ -80,7 +87,11 @@ export const DishAndFoldEventSlots:React.FC = () => {
 										height={DeviceHelper.calculateHeightRatio(80)}>
 										<Box flex={1} flexDirection={'row'}>
 											{
-												[1, 1, 1, 1, 1].map(()=> <DishAndFoldEventBox/>)
+												item.events.map((event)=>
+													<DishAndFoldEventBox
+														key={event.id}
+														event={event}
+														dishAndFoldSlot={item}/>)
 											}
 										</Box>
 									</Box>

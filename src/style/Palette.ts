@@ -31,4 +31,5 @@ export const palette = {
 	sunSetOrange:'#F54146',
 	cloud:'#C9C6C3',
 	candyCorn:'#FCEF59',
+	beige:'#F3EDDE',
 };

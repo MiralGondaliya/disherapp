@@ -1,11 +1,13 @@
 import moment from 'moment';
 
 export interface DishAndFoldsEventDto {
-	startTime:moment
-	endTime:moment,
+	startTime:moment.Moment
+	endTime:moment.Moment,
 	title:string,
 	rating:number,
-	amount:number
+	amount:number,
+	miles:number
+	confirmed:number
 }
 
 export interface DishAndFoldsSlotsDto {

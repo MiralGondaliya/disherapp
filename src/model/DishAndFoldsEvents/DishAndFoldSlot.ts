@@ -12,7 +12,7 @@ export class DishAndFoldSlot extends Model<DishAndFoldsSlotsDto> {
 	get slotStartTime(): moment {
 		return this.dto?.slotStartTime ?? '';
 	}
-	get slotEndTIme(): moment {
+	get slotEndTime(): moment {
 		return this.dto?.slotEndTIme ?? '';
 	}
 	get events(): DishAndFoldEventList {
@@ -24,7 +24,7 @@ export class DishAndFoldSlot extends Model<DishAndFoldsSlotsDto> {
 	}
 
 	slotEndStr():string {
-		return this.slotEndTIme?.format('h a');
+		return this.slotEndTime?.format('h a');
 	}
 
 }
